@@ -1,0 +1,21 @@
+{
+  "name": "3d-sittingchart",
+  "version": "1.0.0",
+  "description": "Double click around the table to add a new student by name",
+  "main": "index.js",
+  "scripts": {
+    "compile": "webpack --devtool eval-source-map js/example1.js dist/example1.js",
+    "dev": "watch -p \"**/*.js\" -c \"npm run compile\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juan-andres/3d-sittingchart.git"
+  },
+  "author": "Juan Andres Andrango",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juan-andres/3d-sittingchart/issues"
+  },
+  "homepage": "https://github.com/juan-andres/3d-sittingchart#readme"
+}
