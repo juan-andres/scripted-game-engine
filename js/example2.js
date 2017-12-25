@@ -124,7 +124,7 @@ engine.init({
   asyncModels: [
     {
       id: 'rock',
-      path: '/assets/rock/',
+      path: '../assets/rock/',
       mtlFileName: 'Rock1.mtl',
       objFileName: 'Rock1.obj',
       position: [4, 0, 0],
@@ -135,7 +135,7 @@ engine.init({
     },
     {
       id: 'paper',
-      path: '/assets/paper/',
+      path: '../assets/paper/',
       objFileName: 'paper_airplane.obj',
       position: [0, 0, 0],
       scale: [40, 40, 40],
@@ -145,7 +145,7 @@ engine.init({
     },
     {
       id: 'scissors',
-      path: '/assets/scissors/',
+      path: '../assets/scissors/',
       mtlFileName: 'scissors.mtl',
       objFileName: 'scissors.obj',
       position: [-3, 0, 0],
